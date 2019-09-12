@@ -1,0 +1,84 @@
+export const hotCity = [
+    {province:"北京>北京",city:"北京"},
+    {province:"上海>上海",city:"上海"},
+    {province:"广东>广州",city:"广州"},
+    {province:"广东>深圳",city:"深圳"},
+    {province:"浙江>杭州",city:"杭州"},
+    {province:"浙江>温州",city:"温州"},
+    {province:"浙江>宁波",city:"宁波"},
+    {province:"江苏>南京",city:"南京"},
+    {province:"江苏>苏州",city:"苏州"},
+    {province:"山东>济南",city:"济南"},
+    {province:"山东>青岛",city:"青岛"},
+    {province:"辽宁>大连",city:"大连"},
+    {province:"江苏>无锡",city:"无锡"},
+    {province:"安徽>合肥",city:"合肥"},
+    {province:"天津>天津",city:"天津"},
+    {province:"湖南>长沙",city:"长沙"},
+    {province:"湖北>武汉",city:"武汉"},
+    {province:"河南>郑州",city:"郑州"},
+    {province:"河北>石家庄",city:"石家庄"},
+    {province:"四川>成都",city:"成都"},
+    {province:"重庆>重庆",city:"重庆"},
+    {province:"陕西>西安",city:"西安"},
+    {province:"云南>昆明",city:"昆明"},
+    {province:"广西>南宁",city:"南宁"},
+    {province:"福建>福州",city:"福州"},
+    {province:"福建>厦门",city:"厦门"},
+    {province:"江西>南昌",city:"南昌"},
+    {province:"广东>东莞",city:"东莞"},
+    {province:"辽宁>沈阳",city:"沈阳"},
+    {province:"吉林>长春",city:"长春"},
+    {province:"黑龙江>哈尔滨",city:"哈尔滨"},
+
+];
+export const province = [
+    "安徽",
+    "福建",
+    "甘肃",
+    "广东",
+    "广西",
+    "贵州",
+    "湖南",
+    "河北",
+    "河南",
+    "湖北",
+    "海南",
+    "江苏",
+    "黑龙江",
+    "江西",
+    "吉林",
+    "辽宁",
+    "内蒙古",
+    "宁夏",
+    "青海",
+    "山东",
+    "山西",
+    "陕西",
+    "四川",
+    "西藏",
+    "新疆",
+    "云南",
+    "浙江",
+    "香港",
+    "澳门",
+    "台湾",
+];
+export const productData = [
+    {title:"价格",list:['从低到高','从高到低','定制价格'],rowIndex:1,type:'priceType'},
+    {title:"类型",list:['新品','二手','翻新'],rowIndex: 2,type:'productType'},
+];
+export const item = [
+    {
+        url:"/M_shop",
+        image:'/images/shop1.jpg'
+    },
+    {
+        url:"/M_shop",
+        image:'/images/shop2.jpg'
+    },
+    {
+        url:"/M_shop",
+        image:'/images/service1.jpg'
+    }
+];

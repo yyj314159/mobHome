@@ -1,0 +1,88 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "description": "My well-made Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "30"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "cube-ui": "~1.12.15",
+    "hls.js": "^0.12.4",
+    "inobounce": "^0.1.6",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.4.0",
+    "postcss-px2rem": "^0.3.0",
+    "register-service-worker": "^1.6.2",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-cube-ui": "^0.2.5",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-px2rem": {
+        "remUnit": 32
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "not ie <= 11",
+    "Android >= 4.0",
+    "iOS >= 8"
+  ],
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/src/modules/${member}",
+      "kebabCase": true
+    }
+  }
+}
